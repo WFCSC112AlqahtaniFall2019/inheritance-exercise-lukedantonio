@@ -6,6 +6,8 @@
 #define INHERITANCE_EXERCISE_LUKEDANTONIO_TRIANGLE_H
 
 
+#include "Polygon.h"
+
 class Triangle : public Polygon {
     int area();
 };

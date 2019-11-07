@@ -8,5 +8,5 @@ void Polygon:: set_values (int a, int b){
     }
 
 int Polygon:: area (){
-    return 1/2 * width * height;
+    return  (width * height) / 2;
 }
